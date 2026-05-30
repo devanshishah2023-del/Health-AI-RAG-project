@@ -433,9 +433,8 @@ providing reliable separation without needing fine-tuning.
 
 
 
-- **Tools used:** an AI coding assistant (Claude) was used to scaffold the project
-  structure, write initial implementations of the modules, draft the sample
-  documents, and draft this README.
+- **Tools used:** an AI coding assistant (Gemini) was used write initial implementations of the modules, draft the sample
+  documents, and improve this README.
 - **What it was used for:** generating boilerplate (FastAPI routing, Pydantic
   schemas, FAISS wrapper), drafting the chunking/guardrail/logging logic.
 - **Which parts were AI-assisted:** the initial code in `app/` and `tests/`,
