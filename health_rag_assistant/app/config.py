@@ -1,13 +1,3 @@
-"""
-Central configuration for the Health AI RAG Assistant.
-
-All tunable behaviour lives here so the rest of the codebase reads cleanly and so
-that a reviewer can see, in one place, every knob that affects retrieval, the
-evidence gate, the safety guardrails, and the LLM call.
-
-Values can be overridden with environment variables (see .env.example), which makes
-the service easy to configure in different environments without touching code.
-"""
 
 from __future__ import annotations
 
