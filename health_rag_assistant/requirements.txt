@@ -1,0 +1,19 @@
+# --- Core API ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+python-dotenv==1.0.1
+
+# --- Retrieval / embeddings (default dense backend) ---
+sentence-transformers==3.3.1
+faiss-cpu==1.9.0.post1
+numpy==2.2.1
+
+# --- Lexical fallback backend + tests ---
+scikit-learn==1.6.0
+
+# --- LLM client (OpenRouter is OpenAI-compatible; we call it over HTTP) ---
+httpx==0.28.1
+
+# --- Testing ---
+pytest==8.3.4
