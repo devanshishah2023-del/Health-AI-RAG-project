@@ -1,21 +1,3 @@
-"""
-Safety guardrails.
-
-The primary guardrail detects urgent, potentially life-threatening symptoms and
-returns an escalation message *instead of* any retrieval or generated advice.
-
-Design notes for the reviewer:
-* Detection is deterministic and explainable (regex over a curated symptom
-  lexicon with word boundaries), which is appropriate for a safety control: it is
-  auditable and fails loudly rather than silently.
-* A light negation check reduces obvious false positives such as
-  "I have no chest pain today" while deliberately staying conservative — if there
-  is any doubt, the guardrail fires, because under-escalating is the dangerous
-  failure mode in a clinical setting.
-* The known limitation (paraphrase / spelling that dodges the lexicon) is
-  documented in the README, along with the planned upgrade to a hybrid
-  lexicon-plus-classifier approach.
-"""
 
 from __future__ import annotations
 
