@@ -439,7 +439,7 @@ providing reliable separation without needing fine-tuning.
   schemas, FAISS wrapper), drafting the chunking/guardrail/logging logic.
 - **Which parts were AI-assisted:** the initial code in `app/` and `tests/`,
   the sample `data/` documents, and this README was improved by AI.
-- **What I personally reviewed / modified / validated:** I curated every regex pattern in guardrails.py.I wrote the 5 rules in llm.py — especially no diagnosis, no dosing advice.I read and understood each module.I configured OpenRouter and verified real LLM generation end-to-end. I ran the test suite and the demo
+- **What I personally reviewed / modified / validated:** I curated every regex pattern in guardrails.py.I wrote the 5 rules in llm.py - especially no diagnosis, no dosing advice.I read and understood each module.I configured OpenRouter and verified real LLM generation end-to-end. I ran the test suite and the demo
   script locally. I calibrated the evidence thresholds against observed similarity scores. I reviewed the guardrail lexicon and the medical content for accuracy. I verified the API responses and the research-log schema.
 
 ---
