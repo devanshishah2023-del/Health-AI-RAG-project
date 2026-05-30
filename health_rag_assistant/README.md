@@ -402,10 +402,6 @@ providing reliable separation without needing fine-tuning.
 - **Keyword-based guardrail.** Regex over a curated lexicon is auditable but can be
   bypassed by paraphrase, typos, or unusual phrasing (e.g. "my heart feels like
   it's going to explode"). The negation heuristic is also simple.
-- **Lexical fallback is weak on paraphrase.** The `tfidf` backend rewards literal
-  word overlap; verbose or reworded questions can score low. This is exactly why
-  `sentence-transformers` is the default. (You can see the effect in Case 1, where
-  TF-IDF ranks the treatments doc above the overview doc.)
 - **No persistence / re-indexing.** The index is rebuilt in memory at startup; there
   is no incremental update or persistent vector DB.
 - **Single-threshold gate.** The evidence gate uses similarity thresholds; it does
@@ -414,8 +410,6 @@ providing reliable separation without needing fine-tuning.
 - **Free-tier LLM constraints.** OpenRouter free models have rate limits
   (commonly ~20 req/min, ~200/day) and can change or be retired; `openrouter/free`
   mitigates this by auto-routing, and the extractive fallback covers outages.
-- **Not validated clinically.** No clinician review, no evaluation against a
-  reference QA set, no PII/PHI handling or auth.
 
 ---
 
