@@ -1,18 +1,3 @@
-"""
-Pluggable embedding backends.
-
-Two interchangeable implementations are provided behind a common interface:
-
-* ``SentenceTransformerEmbedder`` — dense semantic embeddings using a
-  Sentence-Transformers model (default; recommended for quality).
-* ``TfidfEmbedder`` — a lexical TF-IDF baseline using scikit-learn that needs no
-  model download. It is used for offline demos and the automated test suite, and
-  it doubles as a useful baseline to compare dense retrieval against.
-
-Both return L2-normalised float32 vectors so that an inner-product search is
-equivalent to cosine similarity.
-"""
-
 from __future__ import annotations
 
 from typing import List, Protocol
