@@ -10,7 +10,7 @@ It does four things that matter for a clinical-education setting:
    knowledge).
 2. **Refuses safely** when the retrieved evidence is too weak (an
    *evidence-sufficiency gate*).
-3. **Escalates emergencies** — urgent symptoms short-circuit the whole pipeline and
+3. **Escalates emergencies** - urgent symptoms short-circuit the whole pipeline and
    return a safety message instead of advice.
 4. **Logs everything** for research (JSONL **and** SQLite).
 
