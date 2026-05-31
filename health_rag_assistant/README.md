@@ -113,6 +113,7 @@ This runs all five required test cases and writes real entries to
 docker build -t health-rag .
 docker run -p 8000:8000 --env-file .env health-rag
 ```
+<img width="1140" height="682" alt="image" src="https://github.com/user-attachments/assets/4cb53041-bc69-4d86-8099-0e33eed7902b" />
 
 ---
 
