@@ -100,6 +100,7 @@ curl -s -X POST http://127.0.0.1:8000/ask \
   -H "Content-Type: application/json" \
   -d '{"question": "What should I ask my doctor about HFpEF treatment options?"}' | jq
 ```
+<img width="2864" height="974" alt="image" src="https://github.com/user-attachments/assets/02088cd3-b255-4e7c-b621-558dfed01609" />
 
 ### Quick offline demo (no downloads, no key)
 ```bash
