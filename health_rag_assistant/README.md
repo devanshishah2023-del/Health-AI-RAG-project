@@ -30,7 +30,7 @@ It does four things that matter for a clinical-education setting:
 - [What I would improve over a 4-month project](#8-what-i-would-improve-over-a-4-month-project)
 - [AI tool use disclosure](#ai-tool-use-disclosure)
 - [Project layout](#project-layout)
-- [Testing](#testing)
+
 
 ---
 
