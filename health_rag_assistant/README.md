@@ -153,6 +153,7 @@ If either check fails, the system **refuses**:
 
 > *"I don't have enough reliable information in my reference documents to answer
 > that safely…"*
+<img width="2844" height="1540" alt="image" src="https://github.com/user-attachments/assets/45feb8d6-f9da-4336-b5ca-43b476e61e5d" />
 
 The threshold is **calibrated per backend**, because dense and lexical scores live
 on different scales:
