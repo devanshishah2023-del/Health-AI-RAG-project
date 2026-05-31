@@ -190,6 +190,8 @@ Design choices, and why:
 
 The returned message directs the user to call emergency services (911) or go to
 the nearest emergency department.
+<img width="2802" height="1534" alt="image" src="https://github.com/user-attachments/assets/f693d18a-c11c-46ac-8fc3-c38084b349b5" />
+
 
 ---
 
