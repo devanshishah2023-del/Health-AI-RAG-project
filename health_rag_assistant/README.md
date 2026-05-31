@@ -108,7 +108,7 @@ EMBEDDING_BACKEND=tfidf python scripts/demo.py
 ```
 This runs all five required test cases and writes real entries to
 `logs/research_log.jsonl` and `logs/research_log.db`.
-<img width="2870" height="682" alt="image" src="https://github.com/user-attachments/assets/55043e50-ff7e-4f7e-909d-a270933f1542" />
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/8e8a8c92-f5ad-42c0-aede-8d96235640ec" />
 
 
 ### Docker (optional)
